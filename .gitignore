@@ -13,8 +13,8 @@ venv/
 *~
 
 # Data - We will use DVC to track data
-data/
-*.csv
+#data/
+#*.csv
 *.parquet
 
 # Models - We will use DVC/MLflow to track models
