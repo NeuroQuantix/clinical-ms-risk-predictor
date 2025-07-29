@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*~
+
+# Data - We will use DVC to track data
+data/
+*.csv
+*.parquet
+
+# Models - We will use DVC/MLflow to track models
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Environment variables
+.env
+
+# IDE and OS specific
+.idea/
+.vscode/
+*.DS_Store
